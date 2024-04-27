@@ -1,0 +1,101 @@
+package abc;
+
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.List;
+
+public class MyTask1 {
+	public static void main(String[] args) {
+		List<Integer> list = Arrays.asList(17, 3, 5, 2, 1, 7, 9, 6, 12);
+		
+		System.out.print("Printing List Way 1: ");
+		for(int i=0;i<list.size();i++)
+		{
+			System.out.print(list.get(i)+" ");
+		}
+		System.out.println();
+		
+		System.out.print("Printing List Way 2: ");
+		for(int x:list)
+		{
+			System.out.print(x+" ");
+		}
+		System.out.println();
+		
+		System.out.print("Printing List Way 3: ");
+		Iterator<Integer> iteraror=list.iterator();
+		while(iteraror.hasNext())
+		{
+			System.out.print(iteraror.next()+" ");
+		}
+		System.out.println();
+		
+		System.out.print("Printing List Way 4: ");
+		list.forEach(x->System.out.print(x+" "));
+		System.out.println();
+		
+		System.out.print("Sum of All Numbers: ");
+		System.out.print(list.stream().mapToInt(x->x).sum());
+		System.out.println();
+		
+		System.out.print("Sum of Even Numbers: ");
+		System.out.print(list.stream().filter(x->x%2==0).mapToInt(x->x).sum());
+		System.out.println();
+		
+		System.out.print("Sum of Odd Numbers: ");
+		System.out.print(list.stream().filter(x->x%2==1).mapToInt(x->x).sum());
+		System.out.println();
+		
+		System.out.print("Count: ");
+		System.out.print(list.stream().count());
+		System.out.println();
+		
+		System.out.print("Even Count: ");
+		System.out.print(list.stream().filter(x->x%2==0).count());
+		System.out.println();
+		
+		System.out.print("Odd Count: ");
+		System.out.print(list.stream().filter(x->x%2==1).count());
+		System.out.println();
+		
+		System.out.print("Sum of Square : ");
+		System.out.print(list.stream().mapToInt(x->x*x).sum());
+		System.out.println();
+		
+		System.out.print("minimum: ");
+		System.out.print(list.stream().mapToInt(x->x).min().getAsInt());
+		System.out.println();
+		
+		System.out.print("maximum: ");
+		System.out.print(list.stream().mapToInt(x->x).max().getAsInt());
+		System.out.println();
+		
+		System.out.print("Numbers Greater Than 5: ");
+		list.stream().filter(x->x>5).forEach(x->System.out.print(x+" "));;
+		System.out.println();
+		
+		System.out.print("Numbers Less Than 5: ");
+		list.stream().filter(x->x<5).forEach(x->System.out.print(x+" "));;
+		System.out.println();
+		
+		System.out.print("Average: ");
+		System.out.print(list.stream().mapToInt(x->x).average().getAsDouble());
+		System.out.println();
+		
+		System.out.print("Even Numbers: ");
+		list.stream().filter(x->x%2==0).forEach(x->System.out.print(x+" "));;
+		System.out.println();
+		
+		System.out.print("Odd Numbers: ");
+		list.stream().filter(x->x%2==1).forEach(x->System.out.print(x+" "));;
+		System.out.println();
+		
+		System.out.print("Odd Numbers: ");
+		list.stream().mapToInt(x->2*x).forEach(x->System.out.print(x+" "));;
+		System.out.println();
+		
+		System.out.print("Sort: ");
+		list.stream().sorted().forEach(x->System.out.print(x+" "));;
+		System.out.println();
+	}
+}
