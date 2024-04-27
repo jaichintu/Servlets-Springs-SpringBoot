@@ -1,0 +1,16 @@
+127.0.0.1 - - [05/Oct/2023:15:45:21 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [05/Oct/2023:15:45:35 +0530] "GET /servletsa1_basics/registration.html HTTP/1.1" 200 1801
+0:0:0:0:0:0:0:1 - - [05/Oct/2023:15:45:39 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [05/Oct/2023:15:46:35 +0530] "GET /servletsa1_basics/insert?id=1&name=prakash&email=pg426745%40gmail.com&password=hellooooo&dob=2023-10-06&gender=male&checkbox=accepted&drop=india HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [05/Oct/2023:15:48:14 +0530] "GET /servletsa1_basics/insert?id=1&name=prakash&email=pg426745%40gmail.com&password=hellooooo&dob=2023-10-06&gender=male&checkbox=accepted&drop=india HTTP/1.1" 500 7848
+0:0:0:0:0:0:0:1 - - [05/Oct/2023:15:48:18 +0530] "GET /servletsa1_basics/registration.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [05/Oct/2023:16:20:20 +0530] "GET /servletsa1_basics/insert?id=2&name=sahoo&email=sdsad345%40gmail.com&password=urtfnjdfnj&dob=2023-10-04&gender=male&drop=india HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [05/Oct/2023:16:20:26 +0530] "GET /servletsa1_basics/registration.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [05/Oct/2023:16:21:06 +0530] "GET /servletsa1_basics/insert?id=3&name=ravindra&email=abc123%40gmail.com&password=jdeidjiejdfiej&dob=2023-10-02&gender=male&checkbox=accepted&drop=india HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2023:16:27:05 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [05/Oct/2023:16:27:09 +0530] "GET /servletsa1_basics/ HTTP/1.1" 200 52
+0:0:0:0:0:0:0:1 - - [05/Oct/2023:16:27:24 +0530] "GET /servletsa1_basics/httpfetchall HTTP/1.1" 200 668
+0:0:0:0:0:0:0:1 - - [05/Oct/2023:16:28:19 +0530] "GET /servletsa1_basics/ HTTP/1.1" 200 52
+0:0:0:0:0:0:0:1 - - [05/Oct/2023:16:28:27 +0530] "GET /servletsa1_basics/httpfetchall HTTP/1.1" 200 679
+0:0:0:0:0:0:0:1 - - [05/Oct/2023:16:31:03 +0530] "GET /servletsa1_basics/ HTTP/1.1" 200 52
+0:0:0:0:0:0:0:1 - - [05/Oct/2023:16:31:08 +0530] "GET /servletsa1_basics/httpfetchall HTTP/1.1" 200 680

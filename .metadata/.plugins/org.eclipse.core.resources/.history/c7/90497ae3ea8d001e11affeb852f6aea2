@@ -1,0 +1,23 @@
+package com.google.bi_dao;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import com.google.bi_dto.Employer;
+import com.google.bi_repository.EmployerRepository;
+
+@Component
+public class EmployerDao {
+	
+	@Autowired
+	EmployerRepository rep;
+	
+	public List<Employer> insert(List<Employer> dto)
+	{
+		
+		return rep.saveAll(dto);
+	}
+
+}

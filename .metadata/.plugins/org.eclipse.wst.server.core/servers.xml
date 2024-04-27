@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v9.0 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v9.0 Server at localhost" name="Tomcat v9.0 Server at localhost" runtime-id="Apache Tomcat v9.0 (9)" server-type="org.eclipse.jst.server.tomcat.90" server-type-id="org.eclipse.jst.server.tomcat.90" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="5">
+    <list key="modules" value0="servlets_rdi_sram_new::org.eclipse.jst.j2ee.server:servlets_rdi_sram_new::jst.web::2.3" value1="servletsa1_basics::org.eclipse.jst.j2ee.server:servletsa1_basics::jst.web::2.3" value2="session_tracking::org.eclipse.jst.j2ee.server:session_tracking::jst.web::2.3" value3="springmvc_basics::org.eclipse.jst.j2ee.server:springmvc_basics::jst.web::2.3" value4="servlet_config_context::org.eclipse.jst.j2ee.server:servlet_config_context::jst.web::2.3"/>
+  </server>
+</servers>

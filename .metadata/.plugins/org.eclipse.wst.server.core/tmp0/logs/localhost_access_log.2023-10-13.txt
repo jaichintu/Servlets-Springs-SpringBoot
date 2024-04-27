@@ -1,0 +1,9 @@
+127.0.0.1 - - [13/Oct/2023:15:33:53 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [13/Oct/2023:15:33:54 +0530] "GET /servletsa1_basics/loginval.html HTTP/1.1" 200 330
+0:0:0:0:0:0:0:1 - - [13/Oct/2023:15:35:13 +0530] "GET /servletsa1_basics/loginval.html HTTP/1.1" 200 338
+0:0:0:0:0:0:0:1 - - [13/Oct/2023:15:36:39 +0530] "POST /servletsa1_basics/signin HTTP/1.1" 200 29
+0:0:0:0:0:0:0:1 - - [13/Oct/2023:15:36:49 +0530] "GET /servletsa1_basics/loginval.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [13/Oct/2023:15:36:59 +0530] "POST /servletsa1_basics/signin HTTP/1.1" 200 99
+0:0:0:0:0:0:0:1 - - [13/Oct/2023:15:37:04 +0530] "GET /servletsa1_basics/registration.html HTTP/1.1" 200 1801
+0:0:0:0:0:0:0:1 - - [13/Oct/2023:15:37:26 +0530] "GET /servletsa1_basics/loginval.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [13/Oct/2023:15:37:34 +0530] "POST /servletsa1_basics/signin HTTP/1.1" 200 37

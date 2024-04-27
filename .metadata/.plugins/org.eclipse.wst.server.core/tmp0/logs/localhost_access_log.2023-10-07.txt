@@ -1,0 +1,6 @@
+127.0.0.1 - - [07/Oct/2023:15:03:25 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [07/Oct/2023:15:03:34 +0530] "GET /servletsa1_basics/download.jsp HTTP/1.1" 500 2429
+0:0:0:0:0:0:0:1 - - [07/Oct/2023:15:15:17 +0530] "GET /servletsa1_basics/download.jsp HTTP/1.1" 500 2429
+0:0:0:0:0:0:0:1 - - [07/Oct/2023:15:15:18 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [07/Oct/2023:15:43:34 +0530] "GET /servletsa1_basics/servlet/controller.Findall HTTP/1.1" 404 803
+0:0:0:0:0:0:0:1 - - [07/Oct/2023:15:43:35 +0530] "GET /favicon.ico HTTP/1.1" 404 762

@@ -1,0 +1,13 @@
+127.0.0.1 - - [03/Nov/2023:15:35:11 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [03/Nov/2023:15:35:24 +0530] "GET /springmvc_basics/ HTTP/1.1" 200 52
+0:0:0:0:0:0:0:1 - - [03/Nov/2023:15:35:28 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [03/Nov/2023:15:35:46 +0530] "GET /springmvc_basics/insert HTTP/1.1" 200 13
+0:0:0:0:0:0:0:1 - - [03/Nov/2023:15:35:53 +0530] "GET /springmvc_basics/ HTTP/1.1" 200 52
+0:0:0:0:0:0:0:1 - - [03/Nov/2023:15:38:07 +0530] "GET /springmvc_basics/insert HTTP/1.1" 406 810
+0:0:0:0:0:0:0:1 - - [03/Nov/2023:15:38:13 +0530] "GET /springmvc_basics/ HTTP/1.1" 200 52
+0:0:0:0:0:0:0:1 - - [03/Nov/2023:15:38:59 +0530] "GET /springmvc_basics/ HTTP/1.1" 200 52
+0:0:0:0:0:0:0:1 - - [03/Nov/2023:15:39:09 +0530] "GET /springmvc_basics/insert HTTP/1.1" 406 810
+0:0:0:0:0:0:0:1 - - [03/Nov/2023:15:39:32 +0530] "GET /springmvc_basics/ HTTP/1.1" 200 52
+0:0:0:0:0:0:0:1 - - [03/Nov/2023:15:40:00 +0530] "GET /springmvc_basics/ HTTP/1.1" 200 52
+0:0:0:0:0:0:0:1 - - [03/Nov/2023:15:40:08 +0530] "GET /springmvc_basics/insert HTTP/1.1" 406 810
+0:0:0:0:0:0:0:1 - - [03/Nov/2023:15:40:57 +0530] "GET /springmvc_basics/ HTTP/1.1" 200 52

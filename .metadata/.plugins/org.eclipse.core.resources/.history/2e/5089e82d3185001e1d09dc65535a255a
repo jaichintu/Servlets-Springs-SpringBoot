@@ -1,0 +1,56 @@
+ package springmvc_basics.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import springmvc_basics.dao.MvcDao;
+import springmvc_basics.dto.MvcDto;
+
+@Controller
+public class MvcController {
+	
+	@Autowired
+	MvcDao mvcDao;
+	
+	
+	@RequestMapping("/insert")
+	@ResponseBody
+	public void insert(@ModelAttribute MvcDto d1) {
+		
+		int id=d1.getId();
+		
+		String name=d1.getName();
+		
+		System.out.println(id+"   "+name);
+		
+//		MvcDao mvcDao=new MvcDao();
+		mvcDao.insert(d1);
+	}
+	
+	@RequestMapping("/delete")
+	@ResponseBody
+	public void delete(@ModelAttribute MvcDto d1) {
+		
+		
+		int id=d1.getId();
+//		MvcDao mvcDao=new MvcDao();
+		
+		
+		String msg=mvcDao.delete(id);
+	}
+	
+	@RequestMapping("/fetchbyid")
+	@ResponseBody
+	public void fetch(@ModelAttribute MvcDto d1)
+	{
+		int id=d1.getId();
+	}
+	
+	
+	
+	
+
+}

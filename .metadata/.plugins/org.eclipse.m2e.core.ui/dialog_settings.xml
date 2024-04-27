@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\hp\eclipse-workspace\neweclipse\new_project1"/>
+			<item value="C:\Users\hp\eclipse-workspace\neweclipse\servlet_config_context\pom.xml"/>
+			<item value="C:\Users\hp\eclipse-workspace\neweclipse\springioc_dependency_injection\src\main\java\springioc_di_setterinjection\EmployeeDriver.java"/>
+			<item value="C:\Users\hp\eclipse-workspace\neweclipse\servletsa1_basics\src\main\java\controller\DeleteData.java"/>
+			<item value="C:\Users\hp\eclipse-workspace\neweclipse\new_project"/>
+			<item value="C:\Users\hp\Documents\New folder (2)"/>
+			<item value="C:\Users\hp\Documents\New folder"/>
+			<item value="C:\Users\hp\eclipse-workspace\neweclipse\servletsa1_basics\src\main\java\controller\Findall.java"/>
+			<item value="C:\Users\hp\eclipse-workspace\neweclipse"/>
+			<item value="C:\Users\hp\eclipse-workspace\neweclipse\servletsa1_basics\src\main\java\controller\Buster.java"/>
+			<item value="C:\Users\hp\eclipse-workspace\neweclipse\Buskey_Project"/>
+			<item value="C:\Users\hp\eclipse-workspace\neweclipse\Servers"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="mappingnew"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="mappingnew"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\hp\Downloads\ecommerce-storewala-website-master"/>
+			<item value="C:\Users\hp\Downloads\prep"/>
+			<item value="C:\Users\hp\Downloads\testoproj"/>
+			<item value="C:\Users\hp\Downloads\ecommerce"/>
+			<item value="C:\Users\hp\Downloads\bi"/>
+			<item value="C:\Users\hp\Downloads\ai"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

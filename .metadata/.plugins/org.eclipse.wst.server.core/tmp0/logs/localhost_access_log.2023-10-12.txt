@@ -1,0 +1,12 @@
+127.0.0.1 - - [12/Oct/2023:15:35:05 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [12/Oct/2023:15:35:06 +0530] "GET /session_tracking/cookies.html HTTP/1.1" 200 318
+0:0:0:0:0:0:0:1 - - [12/Oct/2023:15:35:07 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [12/Oct/2023:15:35:26 +0530] "POST /session_tracking/login HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [12/Oct/2023:15:35:26 +0530] "GET /session_tracking/homepage HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [12/Oct/2023:15:36:37 +0530] "GET /session_tracking/cookies.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [12/Oct/2023:15:36:45 +0530] "POST /session_tracking/login HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [12/Oct/2023:15:36:45 +0530] "GET /session_tracking/homepage HTTP/1.1" 200 8
+127.0.0.1 - - [12/Oct/2023:16:28:49 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [12/Oct/2023:16:28:50 +0530] "GET /session_tracking/cookies.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [12/Oct/2023:16:29:03 +0530] "POST /session_tracking/login HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [12/Oct/2023:16:29:03 +0530] "GET /session_tracking/homepage HTTP/1.1" 200 16

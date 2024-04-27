@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;servlets_rdi_sram_new&apos; to &apos;Controller&apos;&#x0D;&#x0A;- Original project: &apos;servlets_rdi_sram_new&apos;&#x0D;&#x0A;- Original element: &apos;servlets_rdi_sram_new/src/main/java/servlets_rdi_sram_new&apos;&#x0D;&#x0A;- Renamed element: &apos;servlets_rdi_sram_new/src/main/java/Controller&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;servlets_rdi_sram_new&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;servlets_rdi_sram_new" name="Controller" qualified="false" references="true" stamp="1695468511760" textual="false" version="1.0"/>
+</session>

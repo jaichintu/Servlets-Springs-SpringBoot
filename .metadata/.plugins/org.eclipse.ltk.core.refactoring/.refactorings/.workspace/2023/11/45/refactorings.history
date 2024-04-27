@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;new_project2&apos; to &apos;servlet_config_context&apos;" description="Rename resource &apos;new_project2&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/new_project2" name="servlet_config_context" stamp="1699436089708" updateReferences="true"/>
+</session>
